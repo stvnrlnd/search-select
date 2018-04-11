@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search-Select</title>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="dist/css/bootstrap-select.css">
+
+    <style>
+      body {
+        padding-top: 70px;
+      }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.js" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js" defer></script>
+    <script src="dist/js/bootstrap-select.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form-horizontal" role="form">
+        <div class="form-group">
+          <div class="col-lg-10">
+            <select id="basic" class="selectpicker show-tick form-control" data-live-search="true">
+              <optgroup label="Fiat Currencies">
+                <option>USD</option>
+                <option>JPY</option>
+                <option>GBP</option>
+              </optgroup>
+              <optgroup label="Cryptocurrencies">
+                <option>BTC</option>
+                <option selected>LTC</option>
+                <option>ETH</option>
+              </optgroup>
+            </select>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
